@@ -38,6 +38,7 @@ How others can contribute to your project.
 
 4. Create a .gitignore file:
 ```bash
+cat << 'EOF' > .gitignore
 # MacOS system files
 .DS_Store
 
@@ -59,7 +60,7 @@ env/
 # Build directories
 build/
 dist/
-" > .gitignore
+EOF
 ```
 
 5. Add and commit the files:

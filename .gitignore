@@ -1,0 +1,21 @@
+# MacOS system files
+.DS_Store
+
+# Editor directories
+.vscode/
+.idea/
+
+# Language-specific
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+
+# Environment directories
+venv/
+env/
+.env
+
+# Build directories
+build/
+dist/
