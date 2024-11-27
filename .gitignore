@@ -8,8 +8,10 @@
 # Language-specific
 __pycache__/
 *.pyc
+.Rproj.user
 .Rhistory
 .RData
+.Ruserdata
 
 # Environment directories
 venv/
