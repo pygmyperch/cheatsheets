@@ -18,22 +18,38 @@ git init
 
 3. Create a README.md file:
 ```bash
-echo "# My New Project
+cat << 'EOF' > README.md
+# Project Title
 
-Brief description of your project.
-
-## Getting Started
-
-Instructions for setting up and using your project.
+Brief description of what this project does and its purpose.
 
 ## Features
 
-List of key features.
+- Main feature 1
+- Main feature 2
+- Main feature 3
 
-## Contributing
 
-How others can contribute to your project.
-" > README.md
+### Example code
+
+```bash
+# Example Bash script
+echo "Hello, world!"
+mkdir my_directory
+cd my_directory
+```
+
+```r
+# Example R code
+x <- c(1, 2, 3, 4, 5)
+mean(x)
+plot(x, type = "b", col = "blue")
+```
+## License
+
+This project is licensed under the [LICENSE NAME] - see the LICENSE file for details.
+
+EOF
 ```
 
 4. Create a .gitignore file:
